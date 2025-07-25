@@ -9,8 +9,10 @@
 {if layer_num >= full_fan_speed_layer[current_extruder]}
     {if filament_type[current_extruder]=="PLA"} 
       ; PLA often likes a lot of air
-      M106 P2 S255 ; aux 100%
-      M106 P3 S255 ; case 100%
+      ;M106 P2 S255 ; aux 100%
+      ;M106 P3 S255 ; case 100%
+       M106 P2 S128 ; aux 50%
+       M106 P3 S128 ; case 50%
     {if filament_type[current_extruder]=="TPU"}
       ; TPU needs to stay relatively cool
       M106 P2 S128 ; aux 50%
