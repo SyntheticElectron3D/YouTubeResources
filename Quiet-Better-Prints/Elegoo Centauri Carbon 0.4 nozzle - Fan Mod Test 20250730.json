@@ -1,0 +1,11 @@
+{
+    "change_filament_gcode": ";M600",
+    "from": "User",
+    "inherits": "Elegoo Centauri Carbon 0.4 nozzle",
+    "is_custom_defined": "0",
+    "name": "Elegoo Centauri Carbon 0.4 nozzle - Fan Mod Test 20250730",
+    "print_host": "192.168.8.77",
+    "printer_settings_id": "Elegoo Centauri Carbon 0.4 nozzle - Fan Mod Test 20250730",
+    "support_multi_bed_types": "1",
+    "version": "1.1.8.1"
+}

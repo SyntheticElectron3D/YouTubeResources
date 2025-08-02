@@ -1,0 +1,31 @@
+{
+    "enable_overhang_bridge_fan": [
+        "0"
+    ],
+    "fan_max_speed": [
+        "50"
+    ],
+    "fan_min_speed": [
+        "0"
+    ],
+    "filament_settings_id": [
+        "PETG @ECC - Fan Mod Test - All50"
+    ],
+    "filament_start_gcode": [
+        "; Filament start gcode\nM106 P2 S128\nM106 P3 S128"
+    ],
+    "filament_vendor": [
+        "Comgrow"
+    ],
+    "from": "User",
+    "inherits": "Elegoo RAPID PETG @ECC",
+    "is_custom_defined": "0",
+    "name": "PETG @ECC - Fan Mod Test - All50",
+    "reduce_fan_stop_start_freq": [
+        "0"
+    ],
+    "slow_down_for_layer_cooling": [
+        "0"
+    ],
+    "version": "1.1.8.1"
+}
